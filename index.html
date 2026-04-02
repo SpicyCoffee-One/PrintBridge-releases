@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrintBridge - Turn Any Printer into an AirPrint Printer</title>
+    <meta name="description" content="PrintBridge makes any Windows printer compatible with AirPrint. Print wirelessly from your iPhone, iPad, or Mac to any printer — even old ones without built-in AirPrint support.">
+    <link rel="icon" href="images/printbridge.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#" class="nav-logo">PrintBridge</a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#download" class="nav-cta">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <p class="hero-badge">For Windows</p>
+            <h1>Turn any printer into<br>an AirPrint printer.</h1>
+            <p class="hero-subtitle">
+                Got an old printer without AirPrint? PrintBridge makes it wireless-ready.
+                Print directly from your iPhone, iPad, or Mac to any Windows-connected printer
+                — no extra hardware, no drivers to install on your Apple devices.
+            </p>
+            <div class="hero-actions">
+                <a href="https://github.com/SpicyCoffee-One/PrintBridge/releases" class="btn btn-primary">Download Free</a>
+                <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
+            </div>
+            <p class="hero-note">Requires Windows 10 or later. All Pro features included free during early access.</p>
+        </div>
+    </section>
+
+    <!-- The Problem / Solution -->
+    <section class="section section-gray">
+        <div class="container text-center">
+            <h2>Your printer works fine.<br>It just doesn't speak AirPrint.</h2>
+            <p class="section-subtitle">
+                Millions of perfectly good printers can't print from iPhones and iPads because they
+                were made before AirPrint existed. PrintBridge fixes that. Install it on any Windows PC,
+                share your printers, and every Apple device on your network can print to them instantly.
+            </p>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section">
+        <div class="container">
+            <h2 class="text-center">Up and running in three steps.</h2>
+            <p class="section-subtitle text-center">No configuration on your Apple devices. It just works.</p>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Install</h3>
+                    <p>Download and install PrintBridge on your Windows PC. It runs quietly as a background service.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Share</h3>
+                    <p>Open the Admin panel, tick the printers you want to share, and click Save &amp; Apply.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Print</h3>
+                    <p>Pick up your iPhone or iPad, tap Print from any app, and your shared printers appear automatically.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="section section-gray">
+        <div class="container text-center">
+            <h2>Simple admin. Zero complexity.</h2>
+            <p class="section-subtitle">A clean interface to manage your shared printers, authentication, and audit logs.</p>
+            <div class="screenshot-tabs">
+                <button class="tab-btn active" data-tab="printers">Printers</button>
+                <button class="tab-btn" data-tab="settings">Settings</button>
+                <button class="tab-btn" data-tab="audit">Audit Log</button>
+            </div>
+            <div class="screenshot-wrapper">
+                <img id="tab-printers" src="images/admin-printers.png" alt="PrintBridge Admin — share printers with one click" class="screenshot tab-content active">
+                <img id="tab-settings" src="images/admin-settings.png" alt="PrintBridge Admin — configure authentication and network settings" class="screenshot tab-content">
+                <img id="tab-audit" src="images/admin-audit.png" alt="PrintBridge Admin — audit log showing print history" class="screenshot tab-content">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section">
+        <div class="container">
+            <h2 class="text-center">Everything you need.<br>Nothing you don't.</h2>
+            <p class="section-subtitle text-center">Built for homes, offices, and schools.</p>
+
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">&#9000;</div>
+                    <h3>Works with any printer</h3>
+                    <p>If Windows can print to it, PrintBridge can share it. Inkjet, laser, old, new — it doesn't matter.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#9879;</div>
+                    <h3>Zero config on Apple devices</h3>
+                    <p>Uses standard AirPrint discovery. Your iPhone and iPad find shared printers automatically — nothing to install.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#128274;</div>
+                    <h3>Active Directory authentication</h3>
+                    <p>Require users to log in before printing. Supports LDAP and Entra ID (Azure AD) for school and enterprise environments.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#128203;</div>
+                    <h3>Audit logging</h3>
+                    <p>Track who printed what, when, and to which printer. Export logs to CSV for reporting and compliance.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#128736;</div>
+                    <h3>Runs as a Windows service</h3>
+                    <p>Starts automatically with Windows. No need to stay logged in. Runs silently in the background.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#127760;</div>
+                    <h3>No cloud required</h3>
+                    <p>Everything stays on your local network. No accounts to create, no subscriptions, no data sent anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section section-gray">
+        <div class="container">
+            <h2 class="text-center">Free during early access.</h2>
+            <p class="section-subtitle text-center">Get the full Pro version at no cost while we're in early access. No credit card, no strings attached.</p>
+
+            <div class="pricing-single">
+                <div class="pricing-card pricing-card-featured">
+                    <div class="pricing-badge">Early Access</div>
+                    <div class="pricing-header">
+                        <h3>PrintBridge Pro</h3>
+                        <div class="pricing-price">Free</div>
+                        <p class="pricing-period">for a limited time</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Unlimited shared printers</li>
+                        <li>AirPrint discovery &mdash; works with any Apple device</li>
+                        <li>Runs as a Windows service</li>
+                        <li>Active Directory / Entra ID authentication</li>
+                        <li>Audit logging &amp; CSV export</li>
+                        <li>All future updates during early access</li>
+                    </ul>
+                    <a href="https://github.com/SpicyCoffee-One/PrintBridge/releases" class="btn btn-primary btn-full">Download Free</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="section">
+        <div class="container text-center">
+            <h2>Ready to print wirelessly?</h2>
+            <p class="section-subtitle">Download PrintBridge and start printing from your Apple devices in minutes.</p>
+            <a href="https://github.com/SpicyCoffee-One/PrintBridge/releases" class="btn btn-primary btn-large">Download PrintBridge</a>
+            <div class="system-req">
+                <p><strong>System requirements</strong></p>
+                <p>Windows 10 or later (64-bit) &bull; Any printer installed on Windows &bull; Apple devices on the same Wi-Fi network</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback -->
+    <section class="section section-gray">
+        <div class="container text-center">
+            <h2>Questions or feedback?</h2>
+            <p class="section-subtitle">We'd love to hear from you. Let us know how PrintBridge is working for you or what features you'd like to see.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0XGBUSnMrX_JTCX_ilNKEkjjwMjObU6i3SVq9gqblKgoW8Q/viewform?usp=publish-editor" class="btn btn-secondary btn-large" target="_blank" rel="noopener">Send Feedback</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-logo">PrintBridge</p>
+                <p class="footer-text">Made for people who just want to print.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/SpicyCoffee-One/PrintBridge" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://github.com/SpicyCoffee-One/PrintBridge/releases" target="_blank" rel="noopener">Releases</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0XGBUSnMrX_JTCX_ilNKEkjjwMjObU6i3SVq9gqblKgoW8Q/viewform?usp=publish-editor" target="_blank" rel="noopener">Contact</a>
+                </div>
+                <p class="footer-trademark">AirPrint is a trademark of Apple Inc. PrintBridge is not affiliated with or endorsed by Apple Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
