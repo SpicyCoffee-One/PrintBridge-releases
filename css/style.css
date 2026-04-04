@@ -254,6 +254,23 @@ h3 {
     line-height: 1.55;
 }
 
+/* Phone Frame */
+.phone-frame {
+    display: inline-block;
+    background: #1d1d1f;
+    border-radius: 40px;
+    padding: 12px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.04),
+        0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.phone-video {
+    display: block;
+    width: 280px;
+    border-radius: 28px;
+}
+
 /* ============================================
    Steps (How It Works)
    ============================================ */
